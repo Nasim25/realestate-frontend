@@ -41,7 +41,7 @@ export default function HeroSlider() {
       className="relative mt-18 pt-2 w-full px-4 bg-white"
       aria-label="Hero slider"
     >
-      <div className="mx-auto w-full max-w-7xl">
+      <div className="mx-auto w-full ">
         <Swiper
           modules={[Autoplay, EffectFade, Pagination]}
           effect="fade"
