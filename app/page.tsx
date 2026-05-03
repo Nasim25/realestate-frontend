@@ -8,7 +8,7 @@ export default function HomePage() {
     <main>
       <Navbar />
       <HeroSlider />
-      <StatsBar />
+      {/* <StatsBar /> */}
       <PropertiesSection />
       <ReviewsSection />
       <ServicesSection />

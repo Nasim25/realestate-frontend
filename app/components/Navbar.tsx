@@ -23,11 +23,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-[#f5f2ec]/95 backdrop-blur-md shadow-[0_2px_32px_rgba(15,14,12,0.08)]"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-white  ${scrolled
+          ? " bg-white backdrop-blur-md shadow-[0_2px_32px_rgba(15,14,12,0.08)]"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <nav className="flex items-center h-[72px] px-8 md:px-12" aria-label="Main navigation">
         {/* Logo */}
@@ -35,7 +34,7 @@ export default function Navbar() {
           href="/"
           className="font-display text-2xl font-semibold tracking-[0.12em] uppercase text-[#0f0e0c] no-underline"
         >
-          HA<span className="text-[#b8975a]">V</span>EN
+          REAL<span className="text-[#b8975a]">E</span>STATE
         </Link>
 
         {/* Desktop Links */}

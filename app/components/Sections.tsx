@@ -136,7 +136,7 @@ export function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-14">
         <div>
           <div className="font-display text-[28px] font-semibold tracking-[0.12em] uppercase text-[#f5f2ec] mb-4">
-            HA<span className="text-[#b8975a]">V</span>EN
+            REAL<span className="text-[#b8975a]">E</span>STATE
           </div>
           <p className="text-[13px] text-white/35 leading-[1.8]">
             The world&apos;s most trusted luxury real estate platform. Connecting exceptional people with exceptional homes since 2010.
@@ -160,7 +160,7 @@ export function Footer() {
         ))}
       </div>
       <div className="border-t border-white/[0.06] pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px]">
-        <span>© 2026 Haven Real Estate. All rights reserved.</span>
+        <span>© 2026 Real Estate. All rights reserved.</span>
         <span className="flex gap-4">
           <a href="#" className="hover:text-[#d4b47a] transition-colors no-underline">Privacy Policy</a>
           <a href="#" className="hover:text-[#d4b47a] transition-colors no-underline">Terms of Use</a>
